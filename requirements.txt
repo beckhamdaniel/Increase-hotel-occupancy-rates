@@ -2,4 +2,6 @@ pandas==1.5.3
 numpy==1.24.3
 matplotlib==3.7.1
 seaborn==0.12.2
-sqlite3-python==1.0.0
+
+# Note: sqlite3 is part of the Python standard library; there is no pip 'sqlite3-python' package required.
+# If you need an external driver on some platforms use 'pysqlite3-binary' but for typical CPython installs this is unnecessary.
